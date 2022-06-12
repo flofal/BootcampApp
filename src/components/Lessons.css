@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+}
+
+.lesson-container {
+  flex-grow: 1;
+  min-width: 500px;
+  padding-right: 50px;
+}
+
+.input-container {
+  position: relative;
+}
+
+.search {
+  border: 1.5px solid #838d9b;
+  border-radius: 0.3rem;
+  color: #262626;
+  outline: none;
+  padding: 1rem 42px;
+  transition: border 0.5s, color 0.5s;
+  width: 100%;
+}
+
+.search:focus-visible {
+  border: 1.5px solid #ff6833;
+  color: #ff6833;
+}
+
+.search-icon {
+  color: #838d9b;
+  left: 19px;
+  position: absolute;
+  top: 17px;
+  transition: color 0.5s;
+}
+
+.filter-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.filter-list li {
+  margin-right: 2rem;
+}
+
+.side-container {
+  border-left: 1px solid rgba(131, 141, 155, 0.1);
+  padding-left: 50px;
+  width: 330px;
+}
+

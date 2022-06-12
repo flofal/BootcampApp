@@ -1,0 +1,46 @@
+.card-side {
+  align-items: center;
+  background-color: #262626;
+  border-radius: 0.3rem;
+  box-shadow: rgb(0 0 0 / 20%) 2px 6px 8px -4px;
+  color: white;
+  display: flex;
+  height: 4rem;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+  transition: color 0.3s;
+}
+
+.card-side:hover {
+  color: #ff6833;
+}
+
+.card-side-content {
+  display: flex;
+  align-items: center;
+}
+
+.card-side-number {
+  border-right: 2px solid rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding-right: 1rem;
+}
+
+.card-side-right {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+
+.card-side-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.card-side-description {
+  font-size: 0.7rem;
+  font-weight: 500;
+  opacity: 0.5;
+}

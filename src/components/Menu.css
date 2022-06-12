@@ -1,0 +1,39 @@
+.menu {
+  background-color: #262626;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  position: fixed;
+}
+
+.menu-item-container {
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.menu-selected-bar {
+  background-color: #ff6833;
+  bottom: -4px;
+  left: -12px;
+  position: absolute;
+  top: -4px;
+  width: 3px;
+}
+
+.icons {
+  color: #ff6833;
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+
+.icons:hover {
+  opacity: 1;
+}
+
+.icon-selected {
+  opacity: 1;
+}

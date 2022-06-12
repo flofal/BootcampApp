@@ -1,0 +1,56 @@
+.card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: rgb(0 0 0 / 20%) 2px 6px 8px -4px;
+  color: #262626;
+  display: flex;
+  height: 180px;
+  margin: 1.25rem 0;
+  transition: height 0.2s, width 0.2s;
+  width: 100%;
+}
+
+.card:hover {
+  cursor: pointer;
+  height: 185px;
+  width: 101%;
+}
+
+.lesson-img {
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  height: 100%;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 1rem;
+  width: 100%;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card-title h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.description {
+  color: #838d9b;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.topic {
+  align-self: flex-start;
+  background-color: #eff3f8;
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+}

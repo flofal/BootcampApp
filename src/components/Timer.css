@@ -1,0 +1,45 @@
+.img-background {
+  background-color: #262626;
+  height: 100vh;
+  margin: 0 -3rem;
+  object-fit: cover;
+}
+
+.img-background img {
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.4;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.timer-container {
+  align-items: center;
+  color: white;
+  display: flex;
+  font-size: 6rem;
+  font-weight: 800;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.timer-element {
+  position: relative;
+}
+
+.timer-element span {
+  font-size: 2rem;
+  font-weight: 500;
+  left: 50%;
+  position: absolute;
+  bottom: -3rem;
+  transform: translateX(-50%);
+}
+
+.colon {
+  font-size: 3rem;
+  margin: 0 2rem;
+}
