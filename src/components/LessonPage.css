@@ -1,0 +1,87 @@
+.lesson-page-container {
+  display: flex;
+}
+
+.lesson-left-side {
+  margin-top: 3rem;
+  margin-right: 3rem;
+  width: 73%;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+}
+
+.title-switch-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lesson-left-side h1 {
+  color: #262626;
+  margin: 0.5rem 0;
+}
+
+.lesson-left-side p {
+  color: #262626;
+  font-size: 1rem;
+}
+
+.lesson-left-side small {
+  color: #838d9b;
+}
+
+.switch-container {
+  display: flex;
+  justify-content: end;
+}
+
+.switch {
+  border-radius: 0.2rem;
+  border: 1px solid #ff6833;
+  cursor: pointer;
+  display: flex;
+  height: 20px;
+  transition: all 0.3s;
+  position: relative;
+  width: 110px;
+}
+
+.switch:after {
+  top: 50%;
+  background-color: #ff6833;
+  border-radius: 0.2rem;
+  color: white;
+  content: "Mañana";
+  font-size: 12px;
+  font-weight: 600;
+  height: 15px;
+  left: 5px;
+  position: absolute;
+  transition: all 0.3s;
+  text-align: center;
+  top: 5px;
+  width: 60px;
+
+  top: 100%;
+  margin-top: -16px;
+}
+
+input[type="checkbox"]:checked + .switch:after {
+  background-color: #262626;
+  content: "Tarde";
+  font-weight: 600;
+  padding: auto;
+  transform: translateX(50px);
+  text-align: center;
+}
+
+input[type="checkbox"]:checked + .switch {
+  background-color: white;
+
+}
+
+.offscreen {
+  display: none;
+}

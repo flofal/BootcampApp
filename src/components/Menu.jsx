@@ -12,7 +12,7 @@ import "./Menu.css";
 function Menu() {
   const location = useLocation();
   const isHomePage = location.pathname === "/";
-  const isLessonsPage = location.pathname === "/lessons";
+  const isLessonsPage = location.pathname.includes("/lessons");
   const isTimerPage = location.pathname === "/timer";
   const isQuotePage = location.pathname === "/quote";
 

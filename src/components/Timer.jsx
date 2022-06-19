@@ -24,7 +24,7 @@ function Timer() {
           </div>
           <span className="colon">:</span>
           <div className="timer-element">
-          {addZero(minutes)}
+            {addZero(minutes)}
             <span>Minutos</span>
           </div>
           <span className="colon">:</span>
@@ -38,10 +38,13 @@ function Timer() {
   };
 
   return (
-    <div className="img-background">
-      <img src="/home_cover.png" alt="background" />
-      <Countdown date={new Date("07/08/2022")} renderer={renderer} />
-    </div>
+    <>
+      <div className="img-background">
+        <h1>Cuenta regresiva para terminar el bootcamp</h1>
+        <img src="/home_cover.png" alt="background" />
+        <Countdown date={new Date("07/08/2022")} renderer={renderer} />
+      </div>
+    </>
   );
 }
 

@@ -44,13 +44,21 @@
 
 .description {
   color: #838d9b;
+  margin-top: 0.75rem;
+  overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+
+}
+
+.category-container {
+  display: flex;
 }
 
 .topic {
   align-self: flex-start;
   background-color: #eff3f8;
   border-radius: 0.3rem;
+  margin-right: 0.7rem;
   padding: 0.3rem;
 }

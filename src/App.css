@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
+
 }
 
 body {
   background-color: #fafafa;
+  color: #262626;
 }
 
 .pages-container {

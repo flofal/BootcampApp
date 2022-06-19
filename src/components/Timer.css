@@ -3,6 +3,14 @@
   height: 100vh;
   margin: 0 -3rem;
   object-fit: cover;
+  overflow: hidden;
+}
+
+.img-background h1 {
+  color: white;
+  left: 6rem;
+  position: absolute;
+  z-index: 1;
 }
 
 .img-background img {
@@ -31,11 +39,11 @@
 }
 
 .timer-element span {
+  bottom: -3rem;
   font-size: 2rem;
   font-weight: 500;
   left: 50%;
   position: absolute;
-  bottom: -3rem;
   transform: translateX(-50%);
 }
 
