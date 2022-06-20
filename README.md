@@ -4,7 +4,9 @@ El proyecto está disponible aquí: https://bootcampapp.netlify.app/
 
 ## ✨Tecnologías usadas
 
-Este proyecto fue creado con [Create React App](https://github.com/facebook/create-react-app). Los estilos fueron hechos con css únicamente. 
+Este proyecto fue creado con [Create React App](https://github.com/facebook/create-react-app). 
+
+Los estilos fueron hechos con CSS puro. 
 
 Utilicé las siguientes librerías: 
     Axios,
@@ -18,9 +20,11 @@ Utilicé las siguientes librerías:
 
 Y esta API para las frases motivacionales: https://type.fit/api/quotes. Fuente: https://github.com/ssokurenko/quotes-react-app
 
+
 ## 📝 Sobre el proyecto
 
 Bootcamp app surgió de mi necesidad de tener todos los recursos del bootcamp que estoy cursando en un solo lugar. Cuando comenzó, utilizaba Notion, ya que me quedaba Notion y podía ir agregando todo el material a mi gusto. El problema es que en un momento no pude subir más material dado que tengo una cuenta gratuita. Esto (y lo que he aprendido en el bootcamp) me hizo pensar que podia hacer un sitio que cumpliera con mis necesidades como usuaria.
+
 
 ### 📚 Recursos
 Lo primero que hice fue a empezar a mirar diseños para inspirarme en plataformas como Dribbble y Behance. Luego de mucho mirar, me basé en este: https://dribbble.com/shots/15268795-Learning-platform-Web-app
