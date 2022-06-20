@@ -1,10 +1,12 @@
-# Bootcamp App
+# 👩‍💻Bootcamp App
 
 El proyecto está disponible aquí: https://bootcampapp.netlify.app/
 
-## Tecnologías usadas
+## ✨Tecnologías usadas
 
-Este proyecto fue creado con [Create React App](https://github.com/facebook/create-react-app). Los estilos fueron hechos con css únicamente. Utilicé las siguientes librerías: 
+Este proyecto fue creado con [Create React App](https://github.com/facebook/create-react-app). Los estilos fueron hechos con css únicamente. 
+
+Utilicé las siguientes librerías: 
     Axios,
     React,
     React-countdown, 
@@ -13,6 +15,22 @@ Este proyecto fue creado con [Create React App](https://github.com/facebook/crea
     React-router-dom,
     React-scripts y 
     React-spinners.
+
+Y esta API para las frases motivacionales: https://type.fit/api/quotes. Fuente: https://github.com/ssokurenko/quotes-react-app
+
+## 📝 Sobre el proyecto
+
+Bootcamp app surgió de mi necesidad de tener todos los recursos del bootcamp que estoy cursando en un solo lugar. Cuando comenzó, utilizaba Notion, ya que me quedaba Notion y podía ir agregando todo el material a mi gusto. El problema es que en un momento no pude subir más material dado que tengo una cuenta gratuita. Esto (y lo que he aprendido en el bootcamp) me hizo pensar que podia hacer un sitio que cumpliera con mis necesidades como usuaria.
+
+### 📚 Recursos
+Lo primero que hice fue a empezar a mirar diseños para inspirarme en plataformas como Dribbble y Behance. Luego de mucho mirar, me basé en este: https://dribbble.com/shots/15268795-Learning-platform-Web-app
+
+Las imágenes del home y el fondo de la cuenta regresiva las encontré en Pexels subidas por This Is Engineering: https://www.pexels.com/es-es/@thisisengineering/
+
+La imagen de las tarjetas de cada clase, los puntos de decoración de la imagen de inicio y el favicon fueron diseñados por mí en Canva.
+
+La elección de la paleta de colores fue siguiendo la de Hack Academy.
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
