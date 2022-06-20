@@ -14,7 +14,7 @@ Utilicé las siguientes librerías:
     react-router y 
     react-spinners.
 
-Y esta API para las frases motivacionales: https://type.fit/api/quotes. Fuente: https://github.com/ssokurenko/quotes-react-app
+Y [esta API](https://type.fit/api/quotes) para las frases motivacionales. Fuente: https://github.com/ssokurenko/quotes-react-app
 
 
 ## 📝 Sobre el proyecto
