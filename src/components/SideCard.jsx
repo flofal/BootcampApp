@@ -3,12 +3,12 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 import "./SideCard.css";
 
-function SideCard({ number, title, description, url }) {
+function SideCard({ sideElement, title, description, url }) {
   return (
     <a href={url} target="_blank">
       <div className="card-side">
         <div className="card-side-content">
-          <span className="card-side-number">{number}</span>
+          <span className="card-side-element">{sideElement}</span>
           <div className="card-side-right">
             <span className="card-side-title">{title}</span>
             <small className="card-side-description">{description}</small>

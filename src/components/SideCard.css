@@ -21,7 +21,7 @@
   align-items: center;
 }
 
-.card-side-number {
+.card-side-element {
   border-right: 2px solid rgb(255, 255, 255);
   font-size: 1.5rem;
   font-weight: 800;

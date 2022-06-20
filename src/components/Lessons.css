@@ -36,16 +36,42 @@
   transition: color 0.5s;
 }
 
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .filter-list {
   display: flex;
   list-style: none;
   padding: 0;
   width: 100%;
+
 }
 
 .filter-list li {
   cursor: pointer;
+  font-weight: 500;
   margin-right: 2rem;
+  opacity: 0.5;
+}
+
+.filter-list li.sprint-selected {
+  color: #ff6833;
+  opacity: 1;
+}
+
+.filter-icon{
+  color: #262626;
+  margin-right: 0.5rem;
+}
+
+.loading {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
 }
 
 .side-container {

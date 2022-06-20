@@ -16,7 +16,7 @@ function Lessons() {
   const [isLoading, setIsLoading] = useState(false);
   const [lessons, setLessons] = useState([]);
   const [search, setSearch] = useState("");
-  const [category, setCategory] = useState("all");
+  const [sprint, setSprint] = useState("all");
 
   useEffect(() => {
     function handleFocus() {
@@ -35,7 +35,7 @@ function Lessons() {
       try {
         setIsLoading(true);
         const response = await Axios.get(
-          "https://gist.githubusercontent.com/flofal/e625dcdf0ff1568e859ebaf99b211607/raw/785c0792836b7fc2e2a1d8555ec3ab3550a46ad7/lessons.json"
+          "https://gist.githubusercontent.com/flofal/e625dcdf0ff1568e859ebaf99b211607/raw/bd930c04d300899bd6184854c820e1cc7cfd4394/lessons.json"
         );
         setIsLoading(false);
         setLessons(response.data);
@@ -49,7 +49,7 @@ function Lessons() {
   const filteredLessons = lessons.filter(
     (lesson) =>
       lesson.title.toLowerCase().includes(search.toLowerCase()) &&
-      (lesson.sprint === category || category === "all")
+      (lesson.sprint === sprint || sprint === "all")
   );
 
   return (
@@ -71,17 +71,58 @@ function Lessons() {
             className="search-icon"
           />
         </div>
+
         <ul className="filter-list">
-          <li onClick={() => setCategory("all")}>Todas</li>
-          <li onClick={() => setCategory("01")}>Sprint 01</li>
-          <li onClick={() => setCategory("02")}>Sprint 02</li>
-          <li onClick={() => setCategory("03")}>Sprint 03</li>
-          <li onClick={() => setCategory("04")}>Sprint 04</li>
-          <li onClick={() => setCategory("05")}>Sprint 05</li>
-          <li onClick={() => setCategory("06")}>Sprint 06</li>
-          <li onClick={() => setCategory("Empleabilidad")}>Empleabilidad</li>
+          <li
+            onClick={() => setSprint("all")}
+            className={sprint === "all" ? "sprint-selected" : ""}
+          >
+            Todas
+          </li>
+          <li
+            onClick={() => setSprint("01")}
+            className={sprint === "01" ? "sprint-selected" : ""}
+          >
+            Sprint 01
+          </li>
+          <li
+            onClick={() => setSprint("02")}
+            className={sprint === "02" ? "sprint-selected" : ""}
+          >
+            Sprint 02
+          </li>
+          <li
+            onClick={() => setSprint("03")}
+            className={sprint === "03" ? "sprint-selected" : ""}
+          >
+            Sprint 03
+          </li>
+          <li
+            onClick={() => setSprint("04")}
+            className={sprint === "04" ? "sprint-selected" : ""}
+          >
+            Sprint 04
+          </li>
+          <li
+            onClick={() => setSprint("05")}
+            className={sprint === "05" ? "sprint-selected" : ""}
+          >
+            Sprint 05
+          </li>
+          <li
+            onClick={() => setSprint("06")}
+            className={sprint === "06" ? "sprint-selected" : ""}
+          >
+            Sprint 06
+          </li>
         </ul>
-        <BeatLoader color="#ff6833" loading={isLoading} size={15} />
+
+        {isLoading && (
+          <div className="loading">
+            <BeatLoader color="#ff6833" loading={isLoading} size={15} />
+          </div>
+        )}
+
         {!isLoading && (
           <>
             {filteredLessons.map(function (lesson) {
@@ -102,25 +143,25 @@ function Lessons() {
       <div className="side-container">
         <h4>Hoja de ejercicios por sprint: </h4>
         <SideCard
-          number="01"
+          sideElement="01"
           title="HTML | CSS | JS"
           description="Contiene 29 ejercicios"
           url="https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/EdNBJ7zDJZZOtkFjlGZqQdIBCKKwXx8R4ZZUkUuWkF8omw?e=4cAYp2"
         />
         <SideCard
-          number="02"
+          sideElement="02"
           title="Node | MySQL"
           description="Contiene 23 ejercicios"
           url="https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/EUp6izd7tTNDlNwO_VpT3tcBcAoqLXQmjajxydvC2mKE-w?e=TGOx6E"
         />
         <SideCard
-          number="03"
+          sideElement="03"
           title="Passport | Mongo"
           description="Contiene 7 ejercicios"
           url="https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/EXdUhv5hiyBPrdO0krbGBbkBQ2hyB0qk77RruhDcxK4d1A?e=dvZMIF"
         />
         <SideCard
-          number="04"
+          sideElement="04"
           title="ReactJS"
           description="Contiene 21 ejercicios"
           url="https://haeduuy.sharepoint.com/sites/BootcampGrupo2204/Shared%20Documents/Forms/AllItems.aspx?sortField=Modified&isAscending=false&id=%2Fsites%2FBootcampGrupo2204%2FShared%20Documents%2FMaterial%2FHA%5FBootcamp%5FSprint4%5FEjercicios%2Epdf&parent=%2Fsites%2FBootcampGrupo2204%2FShared%20Documents%2FMaterial"

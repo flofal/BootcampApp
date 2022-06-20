@@ -63,7 +63,6 @@ video {
   text-align: center;
   top: 5px;
   width: 60px;
-
   top: 100%;
   margin-top: -16px;
 }
@@ -73,13 +72,12 @@ input[type="checkbox"]:checked + .switch:after {
   content: "Tarde";
   font-weight: 600;
   padding: auto;
-  transform: translateX(50px);
+  transform: translateX(40px);
   text-align: center;
 }
 
 input[type="checkbox"]:checked + .switch {
   background-color: white;
-
 }
 
 .offscreen {

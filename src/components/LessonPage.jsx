@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePowerpoint } from "@fortawesome/free-solid-svg-icons";
-import { faFilePen } from "@fortawesome/free-solid-svg-icons";
+import { faFilePen, faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
 
 import "./LessonPage.css";
 import SideCard from "./SideCard";
@@ -10,7 +10,7 @@ import SideCard from "./SideCard";
 function LessonPage() {
   const location = useLocation();
   const lesson = location.state.lesson;
-  const [isMorning, setIsMorning] = useState(true);
+  const [isMorning, setIsMorning] = useState(lesson.videos[0] !== "");
 
   return (
     <>
@@ -32,9 +32,10 @@ function LessonPage() {
                 type="checkbox"
                 id="toggle"
                 className="offscreen"
+                checked={!isMorning}
                 onClick={() => setIsMorning(!isMorning)}
               />
-              <label htmlFor="toggle" className="switch"></label>
+              <label htmlFor="toggle" className="switch" />
             </div>
           </div>
           <h1>{lesson.title}</h1>
@@ -44,13 +45,13 @@ function LessonPage() {
           <h4>Material de esta clase: </h4>
 
           <SideCard
-            number={<FontAwesomeIcon icon={faFilePowerpoint} />}
+            sideElement={<FontAwesomeIcon icon={faFilePowerpoint} />}
             title="Diapositivas de la clase"
             url={lesson.slides}
           />
           <SideCard
             title="Ejercicios del sprint"
-            number={<FontAwesomeIcon icon={faFilePen} />}
+            sideElement={<FontAwesomeIcon icon={faFilePen} />}
             url={lesson.exercises}
           />
           <h4>Compartido en esta clase: </h4>
@@ -58,9 +59,9 @@ function LessonPage() {
           {lesson.tools_shared.map(function (tool) {
             return (
               <SideCard
-                title="Herramienta"
-                number={<FontAwesomeIcon icon={faFilePen} />}
-                url={tool}
+                title={tool.title}
+                sideElement={<FontAwesomeIcon icon={faScrewdriverWrench} />}
+                url={tool.url}
               />
             );
           })}
