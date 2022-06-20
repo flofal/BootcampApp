@@ -1,4 +1,4 @@
-# Demo
+# Bootcamp App
 
 El proyecto está disponible aquí: https://bootcampapp.netlify.app/
 
