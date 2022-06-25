@@ -2,7 +2,7 @@
 
 Bootcamp App es una aplicación web desarrollada con el fin de organizar todos los recursos vistos en el [bootcamp de Hack Academy](https://ha.dev/cursos/coding-bootcamp) edición Abril 2022. Para poder acceder a los materiales es necesario estar logueado al email institucional de Hack Academy.
 
-La aplicación está disponible [aquí](https://bootcampapp.netlify.app/).
+**La aplicación está disponible [aquí](https://bootcampapp.netlify.app/).**
 
 
 ## ✨Tecnologías usadas
