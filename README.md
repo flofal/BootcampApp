@@ -24,7 +24,7 @@ La información con las clases y materiales fue almacenada en [este gist](https:
 Bootcamp app surgió de la necesidad de tener todos los recursos del [bootcamp que estoy cursando](https://ha.dev/cursos/coding-bootcamp) en un solo lugar. Cuando comenzó, utilizaba Notion como herramienta de organización, ya que podía ir agregando todo el material a mi gusto. El problema es que en un momento no pude subir más material dado que tengo una cuenta gratuita. Esto, y lo aprendido en el bootcamp, me llevó a desarrollar un sitio que cumpliera con mis necesidades como usuaria.
 
 
-### 📚 Recursos
+## 📚 Recursos
 El primer paso fue escribir todos los requerimientos que debía tener el sitio. 
 
 Luego, buscar inspiración de diseños en plataformas como Dribbble y Behance. [Este fue el elegido.](https://dribbble.com/shots/15268795-Learning-platform-Web-app)
@@ -36,7 +36,7 @@ La imagen de las tarjetas de cada clase, los puntos de decoración de la imagen 
 La paleta de colores fue siguiendo la de [Hack Academy](https://ha.dev/).
 
 
-### 🧭 Mapa del sitio
+## 🧭 Mapa del sitio
 La web se divide en 4 secciones: Home, Mis clases, Cuenta regresiva y Frase motivacional. 
 
 En **Mis clases** se puede encontrar toda la información relacionada con el bootcamp edición Abril 2022. Esto implica: los videos de las grabaciones, una pequeña descripción de lo visto, los slides de las clases, las hojas de ejercicios y herramientas compartidas en el chat. Además, se incluye una funcionalidad de búsqueda por nombre de la clase, y una de filtrado por sprint al que corresponde. **Es importante resaltar que para poder acceder a los materiales es necesario estar logueado al email institucional. Esta fue una decisión de diseño ya que los materiales de Hack Academy son exclusivos para su comunidad.**
