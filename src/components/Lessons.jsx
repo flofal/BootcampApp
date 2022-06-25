@@ -35,7 +35,7 @@ function Lessons() {
       try {
         setIsLoading(true);
         const response = await Axios.get(
-          "https://gist.githubusercontent.com/flofal/e625dcdf0ff1568e859ebaf99b211607/raw/bd930c04d300899bd6184854c820e1cc7cfd4394/lessons.json"
+          "https://gist.githubusercontent.com/flofal/e625dcdf0ff1568e859ebaf99b211607/raw/a50e84884c44e3b80f09e1248578848ba7540797/lessons.json"
         );
         setIsLoading(false);
         setLessons(response.data);
@@ -51,7 +51,6 @@ function Lessons() {
       lesson.title.toLowerCase().includes(search.toLowerCase()) &&
       (lesson.sprint === sprint || sprint === "all")
   );
-
   return (
     <div className="container">
       <div className="lesson-container">
@@ -165,6 +164,12 @@ function Lessons() {
           title="ReactJS"
           description="Contiene 21 ejercicios"
           url="https://haeduuy.sharepoint.com/sites/BootcampGrupo2204/Shared%20Documents/Forms/AllItems.aspx?sortField=Modified&isAscending=false&id=%2Fsites%2FBootcampGrupo2204%2FShared%20Documents%2FMaterial%2FHA%5FBootcamp%5FSprint4%5FEjercicios%2Epdf&parent=%2Fsites%2FBootcampGrupo2204%2FShared%20Documents%2FMaterial"
+        />
+        <SideCard
+          sideElement="05"
+          title="Proyecto final"
+          description="Contiene 3 ejercicios"
+          url="https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/EWaEefoHTLBHhSHvVr1Jn_8BZg_zQXbf7hfakIQeddwhMA?e=Gu3OoD"
         />
       </div>
     </div>
