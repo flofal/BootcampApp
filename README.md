@@ -1,6 +1,6 @@
 # 👩‍💻Bootcamp App
 
-La aplicación está disponible [aquí](https://bootcampapp.netlify.app/)
+La aplicación está disponible [aquí](https://bootcampapp.netlify.app/).
 
 ## ✨Tecnologías usadas
 
@@ -14,7 +14,7 @@ Utilicé las siguientes librerías:
     [react-router](https://reactrouter.com/) y 
     [react-spinners](https://www.npmjs.com/package/react-spinners).
 
-Y [esta API](https://type.fit/api/quotes) para las frases motivacionales. [Ver github](https://github.com/ssokurenko/quotes-react-app)
+Y [esta API](https://type.fit/api/quotes) para las frases motivacionales. [Ver github](https://github.com/ssokurenko/quotes-react-app).
 
 
 ## 📝 Sobre el proyecto
@@ -23,9 +23,9 @@ Bootcamp app surgió de mi necesidad de tener todos los recursos del bootcamp qu
 
 
 ### 📚 Recursos
-Lo primero que hice fue empezar a mirar diseños para inspirarme en plataformas como Dribbble y Behance. Luego de mucho mirar, me basé en [este](https://dribbble.com/shots/15268795-Learning-platform-Web-app)
+Lo primero que hice fue empezar a mirar diseños para inspirarme en plataformas como Dribbble y Behance. Luego de mucho mirar, me basé en [este](https://dribbble.com/shots/15268795-Learning-platform-Web-app).
 
-Las imágenes del home y el fondo de la cuenta regresiva las encontré en Pexels subidas por [This Is Engineering](https://www.pexels.com/es-es/@thisisengineering/)
+Las imágenes del home y el fondo de la cuenta regresiva las encontré en [Pexels](https://pexels.com/) subidas por [This Is Engineering](https://www.pexels.com/es-es/@thisisengineering/).
 
 La imagen de las tarjetas de cada clase, los puntos de decoración de la imagen de inicio y el favicon fueron diseñados por mí en [Canva](https://canva.com/).
 
