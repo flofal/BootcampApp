@@ -29,5 +29,5 @@ Las imágenes del home y el fondo de la cuenta regresiva las encontré en [Pexel
 
 La imagen de las tarjetas de cada clase, los puntos de decoración de la imagen de inicio y el favicon fueron diseñados por mí en [Canva](https://canva.com/).
 
-La elección de la paleta de colores fue siguiendo la de Hack Academy.
+La elección de la paleta de colores fue siguiendo la de [Hack Academy](https://ha.dev/).
 
