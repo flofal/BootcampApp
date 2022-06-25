@@ -19,7 +19,7 @@ Y [esta API](https://type.fit/api/quotes) para las frases motivacionales. [Ver g
 
 ## 📝 Sobre el proyecto
 
-Bootcamp app surgió de mi necesidad de tener todos los recursos del bootcamp que estoy cursando en un solo lugar. Cuando comenzó, utilizaba Notion, ya que podía ir agregando todo el material a mi gusto. El problema es que en un momento no pude subir más material dado que tengo una cuenta gratuita. Esto (y lo que he aprendido en el bootcamp) me hizo pensar que podía hacer un sitio que cumpliera con mis necesidades como usuaria.
+Bootcamp app surgió de mi necesidad de tener todos los recursos del [bootcamp que estoy cursando](https://ha.dev/cursos/coding-bootcamp) en un solo lugar. Cuando comenzó, utilizaba Notion, ya que podía ir agregando todo el material a mi gusto. El problema es que en un momento no pude subir más material dado que tengo una cuenta gratuita. Esto (y lo que he aprendido en el bootcamp) me hizo pensar que podía hacer un sitio que cumpliera con mis necesidades como usuaria.
 
 
 ### 📚 Recursos
