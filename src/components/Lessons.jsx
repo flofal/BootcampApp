@@ -40,7 +40,7 @@ function Lessons() {
       try {
         setIsLoading(true);
         const response = await Axios.get(
-          "https://gist.githubusercontent.com/flofal/e625dcdf0ff1568e859ebaf99b211607/raw/02d21343750515b5967f4918402651aee997b98e/lessons.json"
+          "https://gist.githubusercontent.com/flofal/e625dcdf0ff1568e859ebaf99b211607/raw/c17e0ff0020ded19c3872342906584761fa0961c/lessons.json"
         );
         setIsLoading(false);
         setLessons(response.data);
@@ -51,21 +51,23 @@ function Lessons() {
     getLessons();
   }, []);
 
-  const filteredLessons = lessons.filter(
-    (lesson) =>
-      (lesson.title.toLowerCase().includes(search.toLowerCase()) ||
-        lesson.category.some((singleCategory) =>
-          singleCategory.toLowerCase().includes(search.toLowerCase())
-        )) &&
-      (lesson.sprint === sprint || sprint === "all")
-  ).sort((lesson1, lesson2) => {
-    const [day1, month1, year1] = lesson1.date.split("/");
-    const date1 = new Date(`${year1}/${month1}/${day1}`);
-    const [day2, month2, year2] = lesson2.date.split("/");
-    const date2 = new Date(`${year2}/${month2}/${day2}`);
-    if (date1 >= date2) return dateOrder ? 1 : -1;
-    return dateOrder ? -1 : 1;
-  });
+  const filteredLessons = lessons
+    .filter(
+      (lesson) =>
+        (lesson.title.toLowerCase().includes(search.toLowerCase()) ||
+          lesson.category.some((singleCategory) =>
+            singleCategory.toLowerCase().includes(search.toLowerCase())
+          )) &&
+        (lesson.sprint === sprint || sprint === "all")
+    )
+    .sort((lesson1, lesson2) => {
+      const [day1, month1, year1] = lesson1.date.split("/");
+      const date1 = new Date(`${year1}/${month1}/${day1}`);
+      const [day2, month2, year2] = lesson2.date.split("/");
+      const date2 = new Date(`${year2}/${month2}/${day2}`);
+      if (date1 >= date2) return dateOrder ? 1 : -1;
+      return dateOrder ? -1 : 1;
+    });
   return (
     <div className="container">
       <div className="lesson-container">
@@ -130,7 +132,10 @@ function Lessons() {
               Sprint 06
             </li>
           </ul>
-          <button className="filter-date-btn" onClick={() => setDateOrder(!dateOrder)}>
+          <button
+            className="filter-date-btn"
+            onClick={() => setDateOrder(!dateOrder)}
+          >
             <span>Fecha</span>
             {dateOrder ? (
               <FontAwesomeIcon icon={faArrowDown19} />
