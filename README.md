@@ -39,8 +39,11 @@ La paleta de colores fue siguiendo la de [Hack Academy](https://ha.dev/).
 ## 🧭 Mapa del sitio
 La web se divide en 4 secciones: Home, Mis clases, Cuenta regresiva y Frase motivacional. 
 
+### Mis clases
 En **Mis clases** se puede encontrar toda la información relacionada con el bootcamp edición Abril 2022. Esto implica: los videos de las grabaciones, una pequeña descripción de lo visto, los slides de las clases, las hojas de ejercicios y herramientas compartidas en el chat. Además, se incluye una funcionalidad de búsqueda por nombre de la clase, y una de filtrado por sprint al que corresponde. **Es importante resaltar que para poder acceder a los materiales es necesario estar logueado al email institucional. Esta fue una decisión de diseño ya que los materiales de Hack Academy son exclusivos para su comunidad.**
 
+### Cuenta regresiva
 En **Cuenta regresiva** se muestran los días restantes para terminar el bootcamp.
 
+### Frase motivacional
 En **Frase motivacional** se muestra una frase de aliento de forma aleatoria. Cada vez que se presiona el botón de los dados, se muestra una nueva frase. 
