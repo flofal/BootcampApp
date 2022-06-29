@@ -1,6 +1,7 @@
 import Countdown from "react-countdown";
 
 import "./Timer.css";
+import Footer from "./Footer";
 
 function addZero(number) {
   return number < 10 ? `0${number}` : number;
@@ -44,6 +45,7 @@ function Timer() {
         <img src="/home_cover.png" alt="background" />
         <Countdown date={new Date("07/08/2022")} renderer={renderer} />
       </div>
+      <Footer />
     </>
   );
 }

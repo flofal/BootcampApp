@@ -42,12 +42,18 @@
   align-items: center;
 }
 
+.barra {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  width: 100%;
+}
+
 .filter-list {
   display: flex;
   list-style: none;
   padding: 0;
-  width: 100%;
-
 }
 
 .filter-list li {
@@ -62,10 +68,13 @@
   opacity: 1;
 }
 
-.filter-icon{
-  color: #262626;
-  margin-right: 0.5rem;
+.filter-date-btn {
+height: 2rem;
 }
+
+.filter-date-btn span {
+  margin-right: 0.4rem;
+  }
 
 .loading {
   align-items: center;
@@ -76,6 +85,7 @@
 
 .side-container {
   border-left: 1px solid rgba(131, 141, 155, 0.1);
+  margin-top: 1rem;
   padding-left: 50px;
   width: 330px;
 }

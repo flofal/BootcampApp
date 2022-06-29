@@ -2,23 +2,28 @@
   align-items: center;
   background-color: #fafafa;
   display: flex;
-  height: 100vh;
-  justify-content: space-between; 
-  padding: 0 2rem;
+  height: calc(100vh - 3rem);
+  justify-content: space-around;
 }
 
 .left-container {
+  display: flex;
+  flex-direction: column;
   max-width: 494px;
 }
 
 .left-container h1 {
   font-size: 4rem;
-  margin: 2rem 1rem 0;
+  margin: 2rem 0 0;
 }
 
 .left-container p {
   color: #838d9b;
   margin: 2rem 0;
+}
+
+.left-container btn-home {
+  justify-content: flex-end;
 }
 
 .line {
@@ -46,4 +51,17 @@
   height: 300px;
   object-fit: cover;
   width: 450px;
+}
+
+footer {
+  align-items: center;
+  color: #ff6833;
+  display: flex;
+  font-size: 1.5rem;
+  height: 3rem;
+  justify-content: center;
+}
+
+footer a {
+  margin-right: 2rem;
 }

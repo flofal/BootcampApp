@@ -4,7 +4,11 @@ import { Link } from "react-router-dom";
 import BeatLoader from "react-spinners/BeatLoader";
 import Axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import {
+  faMagnifyingGlass,
+  faArrowUp91,
+  faArrowDown19,
+} from "@fortawesome/free-solid-svg-icons";
 
 import SideCard from "./SideCard";
 import LessonCard from "./LessonCard";
@@ -17,6 +21,7 @@ function Lessons() {
   const [lessons, setLessons] = useState([]);
   const [search, setSearch] = useState("");
   const [sprint, setSprint] = useState("all");
+  const [dateOrder, setDateOrder] = useState(true);
 
   useEffect(() => {
     function handleFocus() {
@@ -35,7 +40,7 @@ function Lessons() {
       try {
         setIsLoading(true);
         const response = await Axios.get(
-          "https://gist.githubusercontent.com/flofal/e625dcdf0ff1568e859ebaf99b211607/raw/a50e84884c44e3b80f09e1248578848ba7540797/lessons.json"
+          "https://gist.githubusercontent.com/flofal/e625dcdf0ff1568e859ebaf99b211607/raw/02d21343750515b5967f4918402651aee997b98e/lessons.json"
         );
         setIsLoading(false);
         setLessons(response.data);
@@ -48,9 +53,19 @@ function Lessons() {
 
   const filteredLessons = lessons.filter(
     (lesson) =>
-      lesson.title.toLowerCase().includes(search.toLowerCase()) &&
+      (lesson.title.toLowerCase().includes(search.toLowerCase()) ||
+        lesson.category.some((singleCategory) =>
+          singleCategory.toLowerCase().includes(search.toLowerCase())
+        )) &&
       (lesson.sprint === sprint || sprint === "all")
-  );
+  ).sort((lesson1, lesson2) => {
+    const [day1, month1, year1] = lesson1.date.split("/");
+    const date1 = new Date(`${year1}/${month1}/${day1}`);
+    const [day2, month2, year2] = lesson2.date.split("/");
+    const date2 = new Date(`${year2}/${month2}/${day2}`);
+    if (date1 >= date2) return dateOrder ? 1 : -1;
+    return dateOrder ? -1 : 1;
+  });
   return (
     <div className="container">
       <div className="lesson-container">
@@ -61,7 +76,7 @@ function Lessons() {
             className="search"
             type="text"
             value={search}
-            placeholder="Busca una clase por título..."
+            placeholder="Busca una clase por título o tema..."
             onChange={(event) => setSearch(event.target.value)}
           />
           <FontAwesomeIcon
@@ -70,52 +85,60 @@ function Lessons() {
             className="search-icon"
           />
         </div>
-
-        <ul className="filter-list">
-          <li
-            onClick={() => setSprint("all")}
-            className={sprint === "all" ? "sprint-selected" : ""}
-          >
-            Todas
-          </li>
-          <li
-            onClick={() => setSprint("01")}
-            className={sprint === "01" ? "sprint-selected" : ""}
-          >
-            Sprint 01
-          </li>
-          <li
-            onClick={() => setSprint("02")}
-            className={sprint === "02" ? "sprint-selected" : ""}
-          >
-            Sprint 02
-          </li>
-          <li
-            onClick={() => setSprint("03")}
-            className={sprint === "03" ? "sprint-selected" : ""}
-          >
-            Sprint 03
-          </li>
-          <li
-            onClick={() => setSprint("04")}
-            className={sprint === "04" ? "sprint-selected" : ""}
-          >
-            Sprint 04
-          </li>
-          <li
-            onClick={() => setSprint("05")}
-            className={sprint === "05" ? "sprint-selected" : ""}
-          >
-            Sprint 05
-          </li>
-          <li
-            onClick={() => setSprint("06")}
-            className={sprint === "06" ? "sprint-selected" : ""}
-          >
-            Sprint 06
-          </li>
-        </ul>
-
+        <div className="barra">
+          <ul className="filter-list">
+            <li
+              onClick={() => setSprint("all")}
+              className={sprint === "all" ? "sprint-selected" : ""}
+            >
+              Todas
+            </li>
+            <li
+              onClick={() => setSprint("01")}
+              className={sprint === "01" ? "sprint-selected" : ""}
+            >
+              Sprint 01
+            </li>
+            <li
+              onClick={() => setSprint("02")}
+              className={sprint === "02" ? "sprint-selected" : ""}
+            >
+              Sprint 02
+            </li>
+            <li
+              onClick={() => setSprint("03")}
+              className={sprint === "03" ? "sprint-selected" : ""}
+            >
+              Sprint 03
+            </li>
+            <li
+              onClick={() => setSprint("04")}
+              className={sprint === "04" ? "sprint-selected" : ""}
+            >
+              Sprint 04
+            </li>
+            <li
+              onClick={() => setSprint("05")}
+              className={sprint === "05" ? "sprint-selected" : ""}
+            >
+              Sprint 05
+            </li>
+            <li
+              onClick={() => setSprint("06")}
+              className={sprint === "06" ? "sprint-selected" : ""}
+            >
+              Sprint 06
+            </li>
+          </ul>
+          <button className="filter-date-btn" onClick={() => setDateOrder(!dateOrder)}>
+            <span>Fecha</span>
+            {dateOrder ? (
+              <FontAwesomeIcon icon={faArrowDown19} />
+            ) : (
+              <FontAwesomeIcon icon={faArrowUp91} />
+            )}
+          </button>
+        </div>
         {isLoading && (
           <div className="loading">
             <BeatLoader color="#ff6833" loading={isLoading} size={15} />

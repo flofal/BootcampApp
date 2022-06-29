@@ -1,0 +1,632 @@
+[
+  {
+    "id": 1,
+    "title": "Clase 1: HTML, CSS, Bootstrap",
+    "videos": [
+      "https://haeduuy.sharepoint.com/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%201%20-%20Abril%2018%20-%20Lunes%20-%20Ma%C3%B1ana-20220418_090708-Meeting%20Recording.mp4",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%201%20-%20Abril%2018%20-%20Lunes%20-%20Tarde-20220418_170725-Meeting%20Recording.mp4"
+    ],
+    "description": "Repaso sobre HTML, CSS. Pautas para maquetar con Bootstrap.",
+    "sprint": "01",
+    "slides": "https://haeduuy.sharepoint.com/sites/BootcampGrupo2204/Shared%20Documents/Material/HA_Bootcamp_Sprint1_01_HTML-CSS-Bootstrap.pdf",
+    "category": ["HTML", "CSS", "Bootstrap"],
+    "date": "18/04/2022",
+    "exercises": "https://haeduuy.sharepoint.com/sites/BootcampGrupo2204/Shared%20Documents/Material/HA_Bootcamp_Sprint1_Ejercicios.pdf",
+    "tools_shared": [
+      {
+        "title": "Explicación Bootstrap - HA",
+        "url": "https://www.youtube.com/watch?v=FKPNNgLMIFA"
+      },
+      {
+        "title": "Explicación de imágenes SVG en 100 segundos",
+        "url": "https://www.youtube.com/watch?v=emFMHH2Bfvo&ab_channel=Fireship"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Clase 2: Flexbox",
+    "videos": ["", ""],
+    "description": "No quedaron grabadas las clases de la mañana ni la tarde.",
+    "sprint": "01",
+    "slides": "https://haeduuy.sharepoint.com/sites/BootcampGrupo2204/Shared%20Documents/Material/HA_Bootcamp_Sprint1_02_Flexbox.pdf?CT=1654647873600&OR=ItemsView",
+    "category": ["CSS"],
+    "date": "19/04/2022",
+    "exercises": "https://haeduuy.sharepoint.com/sites/BootcampGrupo2204/Shared%20Documents/Material/HA_Bootcamp_Sprint1_Ejercicios.pdf",
+    "tools_shared": [
+      {
+        "title": "Flexbox",
+        "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+      },
+      {
+        "title": "Bootstrap in less than 20 minutes",
+        "url": "https://youtu.be/eow125xV5-c"
+      },
+      {
+        "title": "Ejecicios CSS",
+        "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+      },
+      {
+        "title": "BEM - CSS",
+        "url": "https://animaticss.com/articulo/que-es-bem-css/"
+      },
+      {
+        "title": "Alineación - CSS",
+        "url": " https://developer.mozilla.org/es/docs/Web/CSS/align-self"
+      },
+      {
+        "title": "Juego: Flexbox Zombies",
+        "url": "https://mastery.games/flexboxzombies/"
+      },
+      {
+        "title": "Juego: Can't Unsee",
+        "url": "https://cantunsee.space/"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Clase 3: CSS Avanzado",
+    "videos": [
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%201%20-%20Abril%2020%20-%20Ma%C3%B1ana-20220420_090232-Meeting%20Recording.mp4",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%201%20-%20Abril%2020%20-%20Tarde-20220420_171005-Meeting%20Recording.mp4"
+    ],
+    "description": "",
+    "sprint": "01",
+    "slides": "https://haeduuy.sharepoint.com/sites/BootcampGrupo2204/Shared%20Documents/Material/HA_Bootcamp_Sprint1_03_CSSAvanzado.pdf?CT=1654648235495&OR=ItemsView",
+    "category": ["HTML", "CSS", "Bootstrap"],
+    "date": "20/04/2022",
+    "exercises": "https://haeduuy.sharepoint.com/sites/BootcampGrupo2204/Shared%20Documents/Material/HA_Bootcamp_Sprint1_Ejercicios.pdf",
+    "tools_shared": [
+      {
+        "title": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Clase 4: Línea de comandos",
+    "videos": [
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%201%20-%20Abril%2021%20-%20Jueves%20-%20Ma%C3%B1ana-20220421_091703-Meeting%20Recording.mp4",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%201%20-%20Abril%2021%20-%20Jueves%20-%20Tarde-20220421_172550-Grabaci%C3%B3n%20de%20la%20reuni%C3%B3n.mp4"
+    ],
+    "description": "",
+    "sprint": "01",
+    "slides": "https://haeduuy.sharepoint.com/sites/BootcampGrupo2204/Shared%20Documents/Material/HA_Bootcamp_Sprint1_04_L%C3%ADneaDeComandos.pdf?CT=1654648267814&OR=ItemsView",
+    "category": ["HTML", "CSS", "Bootstrap"],
+    "date": "21/04/2022",
+    "exercises": "https://haeduuy.sharepoint.com/sites/BootcampGrupo2204/Shared%20Documents/Material/HA_Bootcamp_Sprint1_Ejercicios.pdf",
+    "tools_shared": [
+      {
+        "title": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Clase 5: GIT",
+    "videos": [
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%201%20-%20Abril%2022%20-%20Viernes-%20Ma%C3%B1ana-20220422_090654-Meeting%20Recording.mp4",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%201%20-%20Abril%2022%20-%20Viernes%20-%20Tarde-20220422_170336-Meeting%20Recording.mp4"
+    ],
+    "description": "",
+    "sprint": "01",
+    "slides": "https://haeduuy.sharepoint.com/sites/BootcampGrupo2204/Shared%20Documents/Forms/AllItems.aspx?isAscending=true&sortField=Modified&id=%2Fsites%2FBootcampGrupo2204%2FShared%20Documents%2FMaterial%2FHA%5FBootcamp%5FSprint1%5F05%5FGit%2Epdf&parent=%2Fsites%2FBootcampGrupo2204%2FShared%20Documents%2FMaterial",
+    "category": ["HTML", "CSS", "Bootstrap"],
+    "date": "22/04/2022",
+    "exercises": "https://haeduuy.sharepoint.com/sites/BootcampGrupo2204/Shared%20Documents/Material/HA_Bootcamp_Sprint1_Ejercicios.pdf",
+    "tools_shared": [
+      {
+        "title": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Clase 11: Node",
+    "videos": [
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%202%20-%20Mayo%2002%20-%20Lunes%20-%20Ma%C3%B1ana-20220502_090718-Meeting%20Recording.mp4",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%202%20-%20Mayo%2002%20-%20Lunes%20-%20Tarde-20220502_170322-Meeting%20Recording.mp4"
+    ],
+    "description": "Introducción a Nodejs. En la tarde se resolvieron los primeros 5 ejercicios del sprint.",
+    "sprint": "02",
+    "slides": "https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/EU12N6o33H9BvZs-vpMfr6IB5EI-X9BnRsIVmnalkq2T-g?e=kdJ0eL",
+    "category": ["Node"],
+    "date": "02/05/2022",
+    "exercises": "https://haeduuy.sharepoint.com/sites/BootcampGrupo2204/Shared%20Documents/Material/HA_Bootcamp_Sprint2_Ejercicios.pdf",
+    "tools_shared": [
+      {
+        "title": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Clase 23: Autenticación",
+    "videos": [
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%203%20-%20Mayo%2018%20-%20Mi%C3%A9rcoles%20-%20Ma%C3%B1ana-20220518_090631-Meeting%20Recording.mp4",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%203%20-%20Mayo%2018%20-%20Mi%C3%A9rcoles%20-%20Tarde-20220518_165119-Grabaci%C3%B3n%20de%20la%20reuni%C3%B3n.mp4"
+    ],
+    "description": "¿Cómo guardar contraseñas? Introducción a Passport. ",
+    "sprint": "03",
+    "slides": "https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/EWaa7OaO10pKtAFAk1u4D7oBEqfgeRUT1S5PKFU7toL5FQ?e=eTgbCi",
+    "category": ["Passport"],
+    "date": "18/05/2022",
+    "exercises": "https://haeduuy.sharepoint.com/sites/BootcampGrupo2204/Shared%20Documents/Material/HA_Bootcamp_Sprint3_Ejercicios.pdf",
+    "tools_shared": [
+      {
+        "title": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Clase 37: Ciclo de vida",
+    "videos": [
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%204%20-%20Junio%207%20-%20Martes%20-%20Ma%C3%B1ana-20220607_090808-Meeting%20Recording.mp4",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%204%20-%20Junio%207%20-%20Martes%20-%20Tarde-20220607_163711-Meeting%20Recording.mp4"
+    ],
+    "description": "",
+    "sprint": "04",
+    "slides": "https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/EcNnQjU8_6NCvdIBc4DsN7YBF-1Uza4mqI_YjE6Db1XTbg?e=N6nq8w",
+    "category": ["React"],
+    "date": "07/06/2022",
+    "exercises": "https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/Eb52S5KehXhGoGjyGif1wtoBdfy5fP8E97f94tK38zympQ?e=FyjGZd",
+    "tools_shared": [
+      {
+        "title": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Clase 38: ",
+    "videos": [
+      "https://haeduuy.sharepoint.com/sites/BootcampGrupo2204/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FBootcampGrupo2204%2FShared%20Documents%2FClases%20%28Videollamadas%29%2FRecordings%2FSprint%204%20%2D%20Junio%208%20%2D%20Mi%C3%A9rcoles%20%2D%20Ma%C3%B1ana%2D20220608%5F090559%2DMeeting%20Recording%2Emp4&parent=%2Fsites%2FBootcampGrupo2204%2FShared%20Documents%2FClases%20%28Videollamadas%29%2FRecordings",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%204%20-%20Junio%208%20-%20Mi%C3%A9rcoles%20-%20Jueves-20220608_164154-Meeting%20Recording.mp4"
+    ],
+    "description": [
+      "La mañana se tomó para trabajar en los ejercicios pendientes (7 y 8), o avanzar en los ejercicios del 9 al 11)",
+      "En la tarde se resolvió el ejercicio 8 y el ejercicio 9."
+    ],
+    "sprint": "04",
+    "slides": "",
+    "category": ["React"],
+    "date": "08/06/2022",
+    "exercises": "https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/Eb52S5KehXhGoGjyGif1wtoBdfy5fP8E97f94tK38zympQ?e=FyjGZd",
+    "tools_shared": [
+      {
+        "title": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Clase 39: ",
+    "videos": [
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%204%20-%20Junio%209%20-%20Jueves%20-%20Ma%C3%B1ana-20220609_090554-Meeting%20Recording.mp4",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%204%20-%20Junio%209%20-%20Jueves%20-%20Tarde-20220609_164054-Meeting%20Recording.mp4"
+    ],
+    "description": [
+      "La mañana se tomó para trabajar en los ejercicios siguientes de HackFlix)",
+      "En la tarde se continuó con el ejercicio 9 y el ejercicio 10."
+    ],
+    "sprint": "04",
+    "slides": "",
+    "category": ["React"],
+    "date": "09/06/2022",
+    "exercises": "https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/Eb52S5KehXhGoGjyGif1wtoBdfy5fP8E97f94tK38zympQ?e=FyjGZd",
+    "tools_shared": [
+      {
+        "title": "Docu filter",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter"
+      },
+      {
+        "title": "Docu map",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map"
+      },
+      {
+        "title": "Infinit scroll",
+        "url": "https://www.npmjs.com/package/react-infinite-scroll-component"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Clase 40: Routing",
+    "videos": [
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%204%20-%20Junio%2010%20-%20Viernes%20-%20Ma%C3%B1ana-20220610_090759-Meeting%20Recording.mp4",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Srpint%204%20-%20Junio%2010%20-%20Viernes%20-%20Tarde-20220610_164049-Meeting%20Recording.mp4"
+    ],
+    "description": "En la mañana se dio routing. En la tarde se continuó con el ejercicio 9 y el ejercicio 10.",
+    "sprint": "04",
+    "slides": "https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/ETkweyol4BJAoXCARUoMhD8BLPfNebim3KCyGlRxWrJZEQ?e=hLFgHL",
+    "category": ["React"],
+    "date": "10/06/2022",
+    "exercises": "https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/Eb52S5KehXhGoGjyGif1wtoBdfy5fP8E97f94tK38zympQ?e=FyjGZd",
+    "tools_shared": [
+      {
+        "title": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Clase 41: Soft skills vs Tech skills y Hackflix",
+    "videos": [
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%204%20-%20Junio%2013%20-%20Lunes%20-%20Ma%C3%B1ana-20220613_090519-Meeting%20Recording.mp4",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%204%20-%20Junio%2013%20-%20Lunes%20-%20Tarde-20220613_162154-Meeting%20Recording.mp4"
+    ],
+    "description": "Comenzamos la mañana con la charla de Jackie sobre Soft skills. Luego seguimos trabajando con Hernán. En la tarde trabajamos sobre Hackflix",
+    "sprint": "05",
+    "slides": "https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/ETkweyol4BJAoXCARUoMhD8BLPfNebim3KCyGlRxWrJZEQ?e=hLFgHL",
+    "category": ["Empleabilidad"],
+    "date": "13/06/2022",
+    "exercises": "https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/Eb52S5KehXhGoGjyGif1wtoBdfy5fP8E97f94tK38zympQ?e=FyjGZd",
+    "tools_shared": [
+      {
+        "title": "",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Clase 42: ",
+    "videos": [
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%204%20-%20Junio%2014%20-%20Martes%20-%20Ma%C3%B1ana-20220614_091714-Grabaci%C3%B3n%20de%20la%20reuni%C3%B3n.mp4",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%204%20-%20Junio%2014%20-%20Martes%20-%20Tarde-20220614_165117-Meeting%20Recording.mp4"
+    ],
+    "description": "",
+    "sprint": "05",
+    "slides": "",
+    "category": ["Empleabilidad"],
+    "date": "14/06/2022",
+    "exercises": "https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/Eb52S5KehXhGoGjyGif1wtoBdfy5fP8E97f94tK38zympQ?e=FyjGZd",
+    "tools_shared": {
+      "Mockmate": "https://app.mockmate.com/",
+      "Future Skills": "https://futureskills.pearson.com/",
+      "Test Personalidad": "https://www.16personalities.com/es/test-de-personalidad",
+      "Interviewbit": "https://www.interviewbit.com/practice/"
+    }
+  },
+  {
+    "id": 43,
+    "title": "Clase 43: ",
+    "videos": [
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%204%20-%20Junio%2015%20-%20Mi%C3%A9rcoles%20-%20Ma%C3%B1ana-20220615_090946-Meeting%20Recording.mp4",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%204%20-%20Junio%2015%20-%20Mi%C3%A9rcoles%20-%20Tarde-20220615_164900-Meeting%20Recording.mp4"
+    ],
+    "description": "",
+    "sprint": "05",
+    "slides": "",
+    "category": ["Reactjs", "Redux"],
+    "date": "15/06/2022",
+    "exercises": "https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/Eb52S5KehXhGoGjyGif1wtoBdfy5fP8E97f94tK38zympQ?e=FyjGZd",
+    "tools_shared": [
+      {
+        "title": "Hackflix - Ricardo",
+        "url": "https://hackflixha.netlify.app/"
+      },
+      {
+        "title": "Hackflix - Manuel",
+        "url": "https://hackflix-manugarderes.netlify.app/"
+      },
+      {
+        "title": "Hackflix - Felipe",
+        "url": "https://hackflix-app.vercel.app/"
+      },
+      {
+        "title": "Rating Stars npm",
+        "url": "https://www.npmjs.com/package/react-rating-stars-component"
+      },
+      {
+        "title": "Pixels and Accessibility",
+        "url": "https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/"
+      },
+      {
+        "title": "Deploy con React en Netlify",
+        "url": "https://www.netlify.com/with/react/"
+      },
+      {
+        "title": "Herramienta para animaciones",
+        "url": "https://rive.app/"
+      },
+      {
+        "title": "Otra herramienta para animaciones",
+        "url": "https://www.framer.com/motion/"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Clase 44: Redux y Hacklist",
+    "videos": [
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%204%20-%20Junio%2016%20-%20Jueves%20-%20Manana-20220616_090950-Meeting%20Recording.mp4",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%204%20-%20Junio%2016%20-%20Jueves%20-%20Tarde-20220616_163807-Meeting%20Recording.mp4"
+    ],
+    "description": "En la mañana vimos la la segunda parte del teórico de Redux. En la tarde se diagramó el ejercicio de Hacklist",
+    "sprint": "05",
+    "slides": "",
+    "category": ["Reactjs", "Redux"],
+    "date": "16/06/2022",
+    "exercises": "https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/Eb52S5KehXhGoGjyGif1wtoBdfy5fP8E97f94tK38zympQ?e=FyjGZd",
+    "tools_shared": [
+      {
+        "title": "Hackflix - José Ricardo Pacheco",
+        "url": "https://hackflixha.netlify.app/"
+      },
+      {
+        "title": "Hackflix - José Ricardo Pacheco",
+        "url": "https://hackflixha.netlify.app/"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Clase 45: Hacklist",
+    "videos": [
+      "",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%204%20-%20Junio%2017%20-%20Viernes%20-%20Tarde-20220617_164550-Meeting%20Recording.mp4"
+    ],
+    "description": "La mañana se tomó para la resolución de ejercicios (no hay grabación). En la tarde se continuó con el ejercicio de Hacklist.",
+    "sprint": "05",
+    "slides": "https://haeduuy.sharepoint.com/sites/BootcampGrupo2204/Shared%20Documents/Material/HA_Bootcamp_Sprint4_06_Redux_Parte2.pdf",
+    "category": ["Reactjs", "Redux"],
+    "date": "17/06/2022",
+    "exercises": "https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/Eb52S5KehXhGoGjyGif1wtoBdfy5fP8E97f94tK38zympQ?e=FyjGZd",
+    "tools_shared": [
+      {
+        "title": "Immer",
+        "url": "https://immerjs.github.io/immer/current/"
+      },
+      {
+        "title": "Doc Redux Toolkit",
+        "url": "https://redux-toolkit.js.org/introduction/getting-started"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Clase 46: E-commerce",
+    "videos": [
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%205%20-%20Junio%2020%20-%20Lunes%20-%20Ma%C3%B1ana-20220620_090727-Meeting%20Recording.mp4",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%205%20-%20Junio%2020%20-%20Lunes%20-%20Tarde-20220620_164213-Meeting%20Recording.mp4"
+    ],
+    "description": "En la mañana se presentó la consigna del proyecto final. En la tarde se mostraron avances en la planificación del proyecto.",
+    "sprint": "05",
+    "slides": "",
+    "category": ["Proyecto final"],
+    "date": "20/06/2022",
+    "exercises": "https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/EWaEefoHTLBHhSHvVr1Jn_8BZg_zQXbf7hfakIQeddwhMA?e=RUstAZ",
+    "tools_shared": [
+      {
+        "title": "Interfaces para usar como referencia",
+        "url": "https://tailwindui.com/#product-ecommerce"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Clase 47: E-commerce",
+    "videos": [
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%205%20-%20Junio%2021%20-%20Martes%20-%20Ma%C3%B1ana-20220621_090606-Meeting%20Recording.mp4",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%205%20-%20Junio%2021%20-%20Martes%20-%20Tarde-20220621_174703-Grabaci%C3%B3n%20de%20la%20reuni%C3%B3n.mp4"
+    ],
+    "description": "No se compartieron recursos.",
+    "sprint": "05",
+    "slides": "",
+    "category": ["Proyecto final"],
+    "date": "21/06/2022",
+    "exercises": "https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/EWaEefoHTLBHhSHvVr1Jn_8BZg_zQXbf7hfakIQeddwhMA?e=RUstAZ",
+    "tools_shared": []
+  },
+  {
+    "id": 48,
+    "title": "Clase 48: Ecommerce",
+    "videos": [
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%205%20-%20Junio%2022%20-%20Mi%C3%A9rcoles%20-%20Ma%C3%B1ana-20220622_090559-Meeting%20Recording.mp4",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%205%20-%20Junio%2022%20-%20Mi%C3%A9rcoles%20-%20Tarde-20220622_172129-Grabaci%C3%B3n%20de%20la%20reuni%C3%B3n.mp4"
+    ],
+    "description": "",
+    "sprint": "05",
+    "slides": "",
+    "category": ["Proyecto final"],
+    "date": "22/06/2022",
+    "exercises": "https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/EWaEefoHTLBHhSHvVr1Jn_8BZg_zQXbf7hfakIQeddwhMA?e=RUstAZ",
+    "tools_shared": [
+      {
+        "title": "Http Status Codes",
+        "url": "https://umbraco.com/knowledge-base/http-status-codes/"
+      },
+      {
+        "title": "Forbidden/Unauthorized Status Codes",
+        "url": "https://auth0.com/blog/forbidden-unauthorized-http-status-codes/"
+      },
+      {
+        "title": "CSS Modules",
+        "url": "https://create-react-app.dev/docs/adding-a-css-modules-stylesheet"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Clase 49: Ecommerce",
+    "videos": [
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%205%20-%20Junio%2023%20-%20Jueves%20-%20Ma%C3%B1ana-20220623_090458-Meeting%20Recording.mp4",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%205%20-%20Junio%2023%20-%20Jueves%20-%20Tarde-20220623_170642-Meeting%20Recording.mp4"
+    ],
+    "description": "En la mañana se habló de cómo resolver conflictos en Github. En la tarde, acerca de store y tokens.",
+    "sprint": "05",
+    "slides": "",
+    "category": ["Proyecto final"],
+    "date": "23/06/2022",
+    "exercises": "https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/EWaEefoHTLBHhSHvVr1Jn_8BZg_zQXbf7hfakIQeddwhMA?e=RUstAZ",
+    "tools_shared": [
+      {
+        "title": "Session Storage",
+        "url": "https://developer.mozilla.org/es/docs/Web/API/Window/sessionStorage"
+      },
+      {
+        "title": "Cookies vs Local Storage",
+        "url": "https://medium.com/swlh/cookies-vs-localstorage-whats-the-difference-d99f0eb09b44"
+      },
+      {
+        "title": "Redux Persist",
+        "url": "https://www.npmjs.com/package/redux-persist"
+      },
+      {
+        "title": "Validar Frontend",
+        "url": "https://www.npmjs.com/package/validator"
+      },
+      {
+        "title": "Validar Forms con React",
+        "url": "https://react-hook-form.com/"
+      },
+      {
+        "title": "Validar en Sequelize",
+        "url": "https://sequelize.org/docs/v6/core-concepts/validations-and-constraints/"
+      },
+      {
+        "title": "Validar en Mongoose",
+        "url": "https://mongoosejs.com/docs/validation.html"
+      },
+      {
+        "title": "Organización de Seguridad informática",
+        "url": "https://owasp.org/"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Clase 50: Demos [Parte 1]",
+    "videos": [
+      "",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%205%20-%20Junio%2024%20-%20Viernes%20-%20Tarde-20220624_151944-Meeting%20Recording%201.mp4"
+    ],
+    "description": "La mañana se tomó para la resolución de ejercicios (no hay grabación). En la tarde se continuó con el ejercicio de Hacklist.",
+    "sprint": "05",
+    "slides": "",
+    "category": ["Proyecto final"],
+    "date": "24/06/2022",
+    "exercises": "https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/EWaEefoHTLBHhSHvVr1Jn_8BZg_zQXbf7hfakIQeddwhMA?e=RUstAZ",
+    "tools_shared": [
+      {
+        "title": "React carousel",
+        "url": "https://www.npmjs.com/package/react-multi-carousel"
+      },
+      {
+        "title": "Uso Redux Toolkit",
+        "url": "https://redux-toolkit.js.org/usage/usage-guide"
+      },
+      {
+        "title": "Dom elements",
+        "url": "https://reactjs.org/docs/dom-elements.html#dangerouslysetinnerhtml"
+      },
+      {
+        "title": "Libreria para notificaciones",
+        "url": "https://www.npmjs.com/package/react-toastify"
+      },
+      {
+        "title": "Extensión vsc para ToDo",
+        "url": "https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Clase 51: Ecommerce",
+    "videos": [
+      "",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%205%20-%20Junio%2027%20-%20Lunes%20-%20Tarde-20220627_170613-Grabaci%C3%B3n%20de%20la%20reuni%C3%B3n.mp4"
+    ],
+    "description": "No hay grabación de la mañana. En la tarde se habló sobre el avance de los proyectos.",
+    "sprint": "06",
+    "slides": "",
+    "category": ["Proyecto final"],
+    "date": "27/06/2022",
+    "exercises": "https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/EWaEefoHTLBHhSHvVr1Jn_8BZg_zQXbf7hfakIQeddwhMA?e=RUstAZ",
+    "tools_shared": [
+      {
+        "title": "Generador de paleta de colores",
+        "url": "https://coolors.co/generate"
+      },
+      {
+        "title": "Redux Persist",
+        "url": "https://redux-toolkit.js.org/usage/usage-guide#use-with-redux-persist"
+      },
+      {
+        "title": "Juego para entrenar el ojo en diseño",
+        "url": "https://cantunsee.space/"
+      },
+      {
+        "title": "React Hook Form",
+        "url": "https://react-hook-form.com/"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Clase 52: Ecommerce",
+    "videos": [
+      "",
+      "https://haeduuy.sharepoint.com/:v:/r/sites/BootcampGrupo2204/Shared%20Documents/Clases%20(Videollamadas)/Recordings/Sprint%205%20-%20Junio%2028%20-%20Martes%20-%20Tarde-20220628_171902-Grabaci%C3%B3n%20de%20la%20reuni%C3%B3n.mp4"
+    ],
+    "description": "No hay grabación de la mañana. En la tarde Hernán compartió varios consejos sobre cómo maquetar y qué cosas tener en cuenta.",
+    "sprint": "06",
+    "slides": "",
+    "category": ["Proyecto final"],
+    "date": "28/06/2022",
+    "exercises": "https://haeduuy.sharepoint.com/:b:/s/BootcampGrupo2204/EWaEefoHTLBHhSHvVr1Jn_8BZg_zQXbf7hfakIQeddwhMA?e=RUstAZ",
+    "tools_shared": [
+      {
+        "title": "Capturas de pantalla completa",
+        "url": "https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl/related"
+      },
+      {
+        "title": "Para practicar maquetado",
+        "url": "https://www.frontendmentor.io/"
+      },
+      {
+        "title": "Otro recurso para maquetado",
+        "url": "https://devchallenges.io/"
+      },
+      {
+        "title": "Espaciado interletrado",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing"
+      },
+      {
+        "title": "Extensión para tipografías",
+        "url": "https://chrome.google.com/webstore/detail/fontanello/jdlhfjlpaijjhklfadlhbbmpjfddkglc?hl=en"
+      },
+      {
+        "title": "Elegir paleta de colores",
+        "url": "https://www.youtube.com/watch?v=UWwNIMHFdW4"
+      },
+      {
+        "title": "Calibrar monitor",
+        "url": "https://hardzone.es/tutoriales/componentes/calibrar-monitor-gratis/"
+      },
+      {
+        "title": "Cuando usar em/rem/px",
+        "url": "https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/"
+      },
+      {
+        "title": "HTML color codes",
+        "url": "https://html-color.codes/gold"
+      },
+      {
+        "title": "Em vs Rem",
+        "url": "https://lupitacode.medium.com/em-vs-rem-cu%C3%A1l-deber%C3%ADa-usar-938376e92da0"
+      }
+    ]
+  }
+]
