@@ -1,5 +1,5 @@
 # 👩‍💻Bootcamp App
-Bootcamp App es una aplicación web desarrollada con el fin de organizar todos los recursos vistos en el [bootcamp de Hack Academy](https://ha.dev/cursos/coding-bootcamp) edición Abril 2022. Para poder acceder a los materiales es necesario estar logueado al email institucional de Hack Academy.
+Bootcamp App es una aplicación web desarrollada en React con el fin de organizar todos los recursos vistos en el [bootcamp de Hack Academy](https://ha.dev/cursos/coding-bootcamp) edición Abril 2022. Para poder acceder a los materiales es necesario estar logueado al email institucional de Hack Academy.
 
 **La aplicación está disponible [aquí](https://bootcampapp.netlify.app/).**
 
@@ -21,7 +21,7 @@ La información con las clases y materiales fue almacenada en [este gist](https:
 
 
 ## 📝 Sobre el proyecto
-Bootcamp app surgió de la necesidad de tener todos los recursos del [bootcamp que estoy cursando](https://ha.dev/cursos/coding-bootcamp) en un solo lugar. Cuando comenzó, utilizaba Notion como herramienta de organización, ya que podía ir agregando todo el material a mi gusto. El problema es que en un momento no pude subir más material dado que tengo una cuenta gratuita. Esto, y lo aprendido en el bootcamp, me llevó a desarrollar un sitio que cumpliera con mis necesidades como usuaria.
+Bootcamp app surgió de la necesidad de tener todos los recursos del [bootcamp que estoy cursando](https://ha.dev/cursos/coding-bootcamp) en un solo lugar. Cuando comenzó el bootcamp, utilizaba Notion como herramienta de organización ya que podía ir agregando todo el material a mi gusto. El problema fue cuando no pude subir más material por tener una cuenta gratuita. Esto, y lo aprendido en el bootcamp, me llevó a desarrollar un sitio que cumpliera con mis necesidades como usuaria.
 
 
 ## 📚 Recursos
