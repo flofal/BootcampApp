@@ -40,7 +40,7 @@ function Lessons() {
       try {
         setIsLoading(true);
         const response = await Axios.get(
-          "https://gist.githubusercontent.com/flofal/e625dcdf0ff1568e859ebaf99b211607/raw/c17e0ff0020ded19c3872342906584761fa0961c/lessons.json"
+          "https://gist.githubusercontent.com/flofal/e625dcdf0ff1568e859ebaf99b211607/raw/a3bdcced2b2874dfc22ae9e40cdf67f8e8118ae3/lessons.json"
         );
         setIsLoading(false);
         setLessons(response.data);
